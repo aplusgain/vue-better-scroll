@@ -160,10 +160,10 @@
           this._initPullUpLoad()
         }
       },
-      openPullDown () {
+      openPullDown2 () {
         this.scroll && this.scroll.openPullDown()
       },
-      closePullDown () {
+      closePullDown2 () {
         this.scroll && this.scroll.closePullDown()
       },
       openPullUp () {
