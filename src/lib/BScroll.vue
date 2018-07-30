@@ -160,6 +160,18 @@
           this._initPullUpLoad()
         }
       },
+      openPullDown () {
+        this.scroll && this.scroll.openPullDown()
+      },
+      closePullDown () {
+        this.scroll && this.scroll.closePullDown()
+      },
+      openPullUp () {
+        this.scroll && this.scroll.openPullUp()
+      },
+      closePullUp () {
+        this.scroll && this.scroll.closePullUp()
+      },
       disable () {
         this.scroll && this.scroll.disable()
       },
